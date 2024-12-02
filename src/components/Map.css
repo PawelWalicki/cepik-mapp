@@ -1,0 +1,121 @@
+.map-img {
+    filter: brightness(1);
+    list-style-type: circle;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.map {
+    position: relative;
+    aspect-ratio: 523/478;
+    width: 523px;
+}
+
+.ul {
+    list-style-type: circle;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+li:hover, li:focus {
+    background-color: blue;
+    opacity:0.5
+}
+
+li {
+    list-style-type: circle;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.zachodnio-pomorskie {
+    clip-path: polygon(30% 7%, 27% 18%, 22% 27%, 3% 35%, 0% 31%, 2% 16%, 2% 13%);
+}
+
+.pomorskie {
+    clip-path: polygon(28% 19%, 31% 6%, 45% 0%, 50% 2%, 49% 18%);
+}
+
+.warminsko-mazurskie {
+    clip-path: polygon(50% 8%, 49% 20%, 55% 27%, 73% 23%, 89% 8%);
+}
+
+.podlaskie {
+    clip-path: polygon(89% 8%, 96% 33%, 89% 41%, 74% 22%);
+
+}
+
+.lubuskie {
+    clip-path: polygon(18% 29%, 17% 42%, 21% 50%, 8% 58%, 4% 55%, 5% 36%);
+
+}
+
+.wielkopolskie {
+    clip-path: polygon(28% 19%, 32% 21%, 33% 38%, 47% 42%, 37% 60%, 36% 58%, 23% 50%, 18% 42%, 19% 29%, 23% 28%);
+}
+
+.kujawsko-pomorskie {
+    clip-path: polygon(49% 20%, 55% 27%, 50% 40%, 48% 41%, 35% 36%, 33% 19%);
+}
+
+.mazowieckie {
+    clip-path: polygon(72% 24%, 88% 42%, 77% 47%, 75% 64%, 63% 59%, 64% 50%, 51% 40%, 56% 27%);
+}
+
+.dolnoslaskie {
+    clip-path: polygon(22% 50%, 35% 59%, 36% 62%, 26% 76%, 27% 80%, 23% 82%, 20% 76%, 22% 73%, 9% 66%, 5% 67%, 7% 59%);
+}
+
+.lodzkie {
+    clip-path: polygon(54% 68%, 62% 60%, 63% 50%, 50% 41%, 48% 43%, 37% 62%, 45% 63%);
+}
+
+.lubelskie {
+    clip-path: polygon(78% 69%, 76% 65%, 78% 50%, 89% 43%, 100% 67%, 100% 74%, 96% 76%, 95% 78%, 86% 77%);
+}
+
+.opolskie {
+    clip-path: polygon(35% 84%, 33% 82%, 35% 78%, 27% 76%, 36% 63%, 44% 64%);
+}
+
+.slaskie {
+    clip-path: polygon(38% 83%, 44% 65%, 55% 69%, 56% 76%, 47% 85%, 51% 90%, 48% 95%, 43% 89%, 43% 86%);
+}
+
+.swietokrzyskie {
+    clip-path: polygon(75% 65%, 77% 69%, 70% 79%, 63% 80%, 57% 75%, 56% 67%, 62% 61%);
+}
+
+.malopolskie {
+    clip-path: polygon(69% 81%, 72% 95%, 62% 96%, 59% 99%, 56% 98%, 53% 91%, 50% 85%, 57% 77%, 63% 82%);
+}
+
+.podkarpackie { 
+    clip-path: polygon(85% 79%, 94% 79%, 87% 96%, 88% 100%, 78% 95%, 74% 95%, 71% 79%, 78% 70%);
+}
+
