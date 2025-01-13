@@ -30,22 +30,26 @@ export const Voivodeship = () => {
         }
     }, [value[0], value[1]])
 
-    useEffect(() => {
+    const getDataFromCepik = async () => {
         // const url = `https://api.cepik.gov.pl/pojazdy?wojewodztwo=${voivodeshioToId[voivodeship]}&data-od=20240101&data-do=20241101`
         const url = `http://localhost:3030/api/cepik?voivodeship=${voivodeshioToId[voivodeship]}&from=${date.from}&to=${date.to}`
-        const fetchData = async () => {
-            const response = await fetch(url)
-            const json = await response.json()
-            setData(json.data)
+        const response = await fetch(url)
+        const json = await response.json()
+        setData(json.data)
+    }
+
+    useEffect(() => {
+        if(date.from && date.to){
+            getDataFromCepik()
         }
-        fetchData()
     }, [])
+  
     return (
         <div>
             {voivodeship.toUpperCase()}
             <div>
                 <DatePicker type="range" allowSingleDateInRange value={value} onChange={setValue} />
-                <Button onClick={() => date}>Szukaj</Button>
+                <Button onClick={() => getDataFromCepik()}>Szukaj</Button>
             </div>
         </div>
     )
