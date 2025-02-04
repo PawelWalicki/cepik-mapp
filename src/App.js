@@ -1,11 +1,21 @@
 import './App.css';
-import { Map } from './components/Map';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HomePage } from './pages/HomePage';
+import { Voivodeship } from './pages/Voivodeship';
 
 function App() {
   return (
+
     <div className="App">
-     <Map></Map>
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage/>}/>
+          <Route path="/:voivodeship" element={<Voivodeship/>}/>
+        </Routes>
+      </Router>
+
     </div>
+
   );
 }
 

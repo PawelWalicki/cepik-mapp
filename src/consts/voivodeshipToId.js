@@ -1,0 +1,18 @@
+export const voivodeshioToId = {
+    "dolnoslaskie": "02",    
+    "kujawsko-pomorskie": "04",
+    "lubelskie": "06",
+    "lubuskie": "08",
+    "lodzkie": "10",
+    "malopolskie": "12",
+    "mazowieckie": "14",
+    "opolskie": "16",
+    "podkarpackie": "18",
+    "podlaskie": "20",
+    "pomorskie": "22",
+    "slaskie": "24",
+    "swietokrzyskie": "26",
+    "warminsko-mazurskie": "28",
+    "wielkopolskie": "30",
+    "zachodniopomorskie": "32",
+}
