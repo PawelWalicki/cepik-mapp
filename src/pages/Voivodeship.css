@@ -1,0 +1,13 @@
+.calendar {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+.buttons {
+    display: flex;
+    margin: 20px 30px;
+    justify-content: space-around;
+    justify-items: start;
+}
