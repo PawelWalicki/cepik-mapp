@@ -6,6 +6,7 @@
 - The user can search for voivodeship
 - The user can choose the period of time he is interested in 
 - The user can can see the results of the selected data on a graph  
+- For the application to work properly I had to create my own server [Solution URL](https://github.com/PawelWalicki/cepik-map-server)
 
 ### Screenshot
 
